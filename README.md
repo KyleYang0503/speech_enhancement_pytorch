@@ -15,19 +15,13 @@ Result : PESQ performance TOP 10%
 
 ```
 ├── Dataset   
-       ├── train（解压的数据集文件夹，3670个样本）  
+       ├── train
             ├── mix_file
-       ├── train（生成的训练集，3306个样本）  
-       └── val（生成的验证集，364个样本） 
+            ├── clean_file
+       ├── dev（for cross vaildation）  
+            ├── mix_file
+            ├── clean_file
 ```
->
->>
->>>mix_file
->>>clean_file
-
->>dev
->>>mix_file
->>>clean_file
 
 and execute json_extract.py
 
