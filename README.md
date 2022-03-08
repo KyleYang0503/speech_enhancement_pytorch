@@ -12,9 +12,16 @@ Result : PESQ performance TOP 10%
 
 ## Data
 
-Structure file like
->Dataset
->>train
+
+```
+├── Dataset   
+       ├── train（解压的数据集文件夹，3670个样本）  
+            ├── mix_file
+       ├── train（生成的训练集，3306个样本）  
+       └── val（生成的验证集，364个样本） 
+```
+>
+>>
 >>>mix_file
 >>>clean_file
 
