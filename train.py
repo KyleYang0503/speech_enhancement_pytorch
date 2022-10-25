@@ -40,7 +40,7 @@ def main(args, model):
     
 
 parser = argparse.ArgumentParser(
-    "Speech Enhancement networks with dynamic attention and recursive learning"
+    "Speech Enhancement"
 )
 
 # parameters config
